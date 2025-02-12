@@ -1,0 +1,265 @@
+{
+  "100": {
+    "numer": "100",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 100",
+    "pojemność": 180,
+    "sprzęt": ["projektor", "tablica interaktywna"],
+    "harmonogram": {
+      "poniedziałek": "9:00 - 11:00: Wykład z matematyki; 11:15 - 13:00: Laboratorium z fizyki",
+      "wtorek": "9:00 - 10:30: Wykład z informatyki; 10:45 - 12:30: Seminarium",
+      "środa": "9:00 - 11:00: Wykład z chemii; 11:15 - 13:00: Laboratorium",
+      "czwartek": "10:00 - 12:00: Wykład z historii; 12:15 - 14:00: Ćwiczenia",
+      "piątek": "9:00 - 11:00: Wykład z języka angielskiego; 11:15 - 13:00: Konwersatorium",
+      "sobota": "",
+      "niedziela": ""
+    }
+  },
+  "17": {
+    "numer": "17",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 17",
+    "pojemność": 100,
+    "sprzęt": ["monitor", "kamera"],
+    "harmonogram": {
+      "poniedziałek": "8:00 - 10:00: Wykład z informatyki; 10:15 - 12:00: Ćwiczenia",
+      "wtorek": "8:00 - 10:00: Wykład z fizyki; 10:15 - 12:00: Laboratorium",
+      "środa": "8:00 - 10:00: Wykład z matematyki; 10:15 - 12:00: Seminarium",
+      "czwartek": "8:00 - 10:00: Wykład z ekonomii; 10:15 - 12:00: Ćwiczenia",
+      "piątek": "8:00 - 10:00: Wykład z zarządzania; 10:15 - 12:00: Konwersatorium",
+      "sobota": "",
+      "niedziela": ""
+    }
+  },
+  "19": {
+    "numer": "19",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 19",
+    "pojemność": 12,
+    "sprzęt": ["projektor", "tablica interaktywna"]
+  },
+  "2": {
+    "numer": "2",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 2",
+    "pojemność": 2,
+    "sprzęt": ["komputer"]
+  },
+  "20": {
+    "numer": "20",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 20",
+    "pojemność": 120,
+    "sprzęt": ["projektor", "system nagłośnienia", "wideokonferencja"]
+  },
+  "201-202": {
+    "numer": "201-202",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 201-202",
+    "pojemność": 86,
+    "sprzęt": ["projektor", "system nagłośnienia", "tablica interaktywna"]
+  },
+  "203": {
+    "numer": "203",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 203",
+    "pojemność": 104,
+    "sprzęt": ["projektor", "system nagłośnienia", "tablica interaktywna"]
+  },
+  "206": {
+    "numer": "206",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 206",
+    "pojemność": 32,
+    "sprzęt": ["projektor", "tablica interaktywna"]
+  },
+  "209": {
+    "numer": "209",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 209",
+    "pojemność": 63,
+    "sprzęt": ["projektor", "system nagłośnienia"]
+  },
+  "21": {
+    "numer": "21",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 21",
+    "pojemność": 144,
+    "sprzęt": [
+      "projektor",
+      "system nagłośnienia",
+      "tablica interaktywna",
+      "wideokonferencja"
+    ]
+  },
+  "211": {
+    "numer": "211",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 211",
+    "pojemność": 40,
+    "sprzęt": ["projektor", "tablica interaktywna"]
+  },
+  "212": {
+    "numer": "212",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 212",
+    "pojemność": 67,
+    "sprzęt": ["projektor", "system nagłośnienia"]
+  },
+  "213": {
+    "numer": "213",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 213",
+    "pojemność": 30,
+    "sprzęt": ["monitor", "kamera"]
+  },
+  "214": {
+    "numer": "214",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 214",
+    "pojemność": 100,
+    "sprzęt": ["projektor", "system nagłośnienia", "tablica interaktywna"]
+  },
+  "3": {
+    "numer": "3",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 3",
+    "pojemność": 15,
+    "sprzęt": ["monitor"]
+  },
+  "301": {
+    "numer": "301",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 301",
+    "pojemność": 78,
+    "sprzęt": ["projektor", "system nagłośnienia", "wideokonferencja"]
+  },
+  "303": {
+    "numer": "303",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 303",
+    "pojemność": 25,
+    "sprzęt": ["projektor", "tablica interaktywna"]
+  },
+  "305": {
+    "numer": "305",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 305",
+    "pojemność": 38,
+    "sprzęt": ["monitor", "kamera"]
+  },
+  "307": {
+    "numer": "307",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 307",
+    "pojemność": 38,
+    "sprzęt": ["projektor", "system nagłośnienia"]
+  },
+  "308": {
+    "numer": "308",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 308",
+    "pojemność": 12,
+    "sprzęt": ["monitor"]
+  },
+  "312": {
+    "numer": "312",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 312",
+    "pojemność": 18,
+    "sprzęt": ["tablica interaktywna"]
+  },
+  "313": {
+    "numer": "313",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 313",
+    "pojemność": 21,
+    "sprzęt": ["monitor", "kamera"]
+  },
+  "314": {
+    "numer": "314",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 314",
+    "pojemność": 50,
+    "sprzęt": ["projektor", "tablica interaktywna"]
+  },
+  "315": {
+    "numer": "315",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 315",
+    "pojemność": 50,
+    "sprzęt": ["projektor", "system nagłośnienia"]
+  },
+  "316": {
+    "numer": "316",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 316",
+    "pojemność": 70,
+    "sprzęt": ["projektor", "system nagłośnienia", "tablica interaktywna"]
+  },
+  "317": {
+    "numer": "317",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 317",
+    "pojemność": 30,
+    "sprzęt": ["monitor", "kamera"]
+  },
+  "4": {
+    "numer": "4",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 4",
+    "pojemność": 15,
+    "sprzęt": ["komputer"]
+  },
+  "40": {
+    "numer": "40",
+    "budynek": "B",
+    "piętro": "3",
+    "lokalizacja": "Budynek B, Piętro 3, Sala 40",
+    "pojemność": 12,
+    "sprzęt": ["monitor"]
+  },
+  "403": {
+    "numer": "403",
+    "budynek": "B",
+    "piętro": "2",
+    "lokalizacja": "Budynek B, Piętro 2, Sala 403",
+    "pojemność": 25,
+    "sprzęt": ["projektor", "system nagłośnienia"]
+  },
+  "41": {
+    "numer": "41",
+    "budynek": "B",
+    "piętro": "1",
+    "lokalizacja": "Budynek B, Piętro 1, Sala 41",
+    "pojemność": 12,
+    "sprzęt": ["monitor", "kamera"]
+  }
+}

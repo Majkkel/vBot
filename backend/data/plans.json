@@ -1,0 +1,103 @@
+{
+  "informatyka": {
+    "poniedziałek": [
+      {
+        "godzina": "8:00",
+        "przedmiot": "Wprowadzenie do programowania",
+        "sala": "101"
+      },
+      {
+        "godzina": "10:00",
+        "przedmiot": "Algorytmy i struktury danych",
+        "sala": "102"
+      }
+    ],
+    "wtorek": [
+      { "godzina": "9:00", "przedmiot": "Systemy operacyjne", "sala": "202" },
+      { "godzina": "11:00", "przedmiot": "Bazy danych", "sala": "203" }
+    ],
+    "środa": [
+      { "godzina": "8:00", "przedmiot": "Sieci komputerowe", "sala": "104" },
+      {
+        "godzina": "10:00",
+        "przedmiot": "Programowanie obiektowe",
+        "sala": "105"
+      }
+    ],
+    "czwartek": [
+      {
+        "godzina": "9:00",
+        "przedmiot": "Inżynieria oprogramowania",
+        "sala": "106"
+      },
+      {
+        "godzina": "11:00",
+        "przedmiot": "Bezpieczeństwo w sieciach",
+        "sala": "107"
+      }
+    ],
+    "piątek": [
+      {
+        "godzina": "8:00",
+        "przedmiot": "Sztuczna inteligencja",
+        "sala": "108"
+      },
+      { "godzina": "10:00", "przedmiot": "Analiza danych", "sala": "109" }
+    ],
+    "sobota": [],
+    "niedziela": []
+  },
+  "matematyka": {
+    "poniedziałek": [
+      { "godzina": "9:00", "przedmiot": "Analiza matematyczna", "sala": "201" }
+    ],
+    "wtorek": [
+      { "godzina": "10:00", "przedmiot": "Algebra liniowa", "sala": "202" }
+    ],
+    "środa": [
+      { "godzina": "8:00", "przedmiot": "Rachunek różniczkowy", "sala": "203" }
+    ],
+    "czwartek": [
+      { "godzina": "9:00", "przedmiot": "Rachunek całkowy", "sala": "204" }
+    ],
+    "piątek": [
+      { "godzina": "10:00", "przedmiot": "Statystyka", "sala": "205" }
+    ],
+    "sobota": [],
+    "niedziela": []
+  },
+  "fizyka": {
+    "poniedziałek": [
+      { "godzina": "8:00", "przedmiot": "Mechanika", "sala": "301" }
+    ],
+    "wtorek": [
+      { "godzina": "9:00", "przedmiot": "Termodynamika", "sala": "302" }
+    ],
+    "środa": [
+      { "godzina": "10:00", "przedmiot": "Elektromagnetyzm", "sala": "303" }
+    ],
+    "czwartek": [{ "godzina": "8:00", "przedmiot": "Optika", "sala": "304" }],
+    "piątek": [
+      { "godzina": "9:00", "przedmiot": "Fizyka kwantowa", "sala": "305" }
+    ],
+    "sobota": [],
+    "niedziela": []
+  },
+  "chemia": {
+    "poniedziałek": [
+      { "godzina": "10:00", "przedmiot": "Chemia ogólna", "sala": "401" }
+    ],
+    "wtorek": [
+      { "godzina": "11:00", "przedmiot": "Chemia organiczna", "sala": "402" }
+    ],
+    "środa": [
+      { "godzina": "10:00", "przedmiot": "Chemia nieorganiczna", "sala": "403" }
+    ],
+    "czwartek": [
+      { "godzina": "11:00", "przedmiot": "Analiza chemiczna", "sala": "404" }
+    ],
+    "piątek": [{ "godzina": "10:00", "przedmiot": "Biochemia", "sala": "405" }],
+    "sobota": [],
+    "niedziela": []
+  }
+}

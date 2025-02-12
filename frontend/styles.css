@@ -1,0 +1,156 @@
+/* Importowanie fontu i resetowanie marginesów */
+* {
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #e0e5ec;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Kontener czatu */
+.chat-container {
+  background: #e0e5ec;
+  width: 420px;
+  height: 680px;
+  border-radius: 30px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Nagłówek czatu */
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #e0e5ec;
+  box-shadow: inset 5px 5px 10px #babfc7, inset -5px -5px 10px #ffffff;
+}
+
+.chat-logo {
+  margin-right: 12px;
+}
+
+.logo-icon {
+  border-radius: 50%;
+}
+
+.chat-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #6c7a89;
+}
+
+/* Obszar czatu */
+.chat-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  scrollbar-width: thin; /* Ustawia pasek jako wąski */
+  scrollbar-color: #6c7a89 #e0e5ec; /* Kolor kciuka oraz tła paska */
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 8px; /* Wąski pasek przewijania */
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background: #e0e5ec; /* Tło paska */
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 10px #babfc7, inset -5px -5px 10px #ffffff;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background: #6c7a89; /* Kolor "kciuka" przewijania */
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 4px #babfc7, inset -2px -2px 4px #ffffff;
+}
+
+/* Wiadomości */
+.message {
+  margin-bottom: 12px;
+  padding: 12px 18px;
+  border-radius: 25px;
+  max-width: 80%;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+.message.user {
+  background: #e0e5ec;
+  align-self: flex-end;
+  box-shadow: 5px 5px 15px #babfc7, -5px -5px 15px #ffffff;
+  color: #333;
+}
+
+.message.bot {
+  background: #e0e5ec;
+  align-self: flex-start;
+  box-shadow: inset 5px 5px 15px #babfc7, inset -5px -5px 15px #ffffff;
+  color: #6c7a89;
+}
+
+/* Kontener wejścia */
+.input-container {
+  display: flex;
+  gap: 15px;
+  padding: 15px 20px;
+  background: #e0e5ec;
+  box-shadow: inset 5px 5px 10px #babfc7, inset -5px -5px 10px #ffffff;
+}
+
+#userInput {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background: #e0e5ec;
+  box-shadow: inset 5px 5px 10px #babfc7, inset -5px -5px 10px #ffffff;
+  font-size: 16px;
+}
+
+#sendBtn,
+#recordBtn {
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: #e0e5ec;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 5px 5px 10px #babfc7, -5px -5px 10px #ffffff;
+  transition: all 0.2s ease;
+}
+
+#sendBtn:hover,
+#recordBtn:hover {
+  box-shadow: inset 5px 5px 15px #babfc7, inset -5px -5px 15px #ffffff;
+}
+
+.chat-footer {
+  text-align: center;
+  padding: 10px;
+  background: #e0e5ec;
+  box-shadow: inset 5px 5px 10px #babfc7, inset -5px -5px 10px #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.chat-footer small {
+  color: #6c7a89;
+  font-size: 14px;
+}

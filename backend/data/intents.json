@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "przywitanie",
+      "patterns": [
+        "Cześć",
+        "Hej",
+        "Dzień dobry",
+        "Witam",
+        "Siema",
+        "Czołem",
+        "Hejka",
+        "Witam serdecznie",
+        "Pozdrowienia"
+      ],
+      "responses": [
+        "Cześć!",
+        "Hej, jak mogę pomóc?",
+        "Witam serdecznie, czym mogę służyć?",
+        "Dzień dobry, jak mogę Ci pomóc?"
+      ]
+    },
+    {
+      "tag": "pożegnanie",
+      "patterns": [
+        "Do widzenia",
+        "Na razie",
+        "Pa pa",
+        "Żegnam",
+        "Do zobaczenia"
+      ],
+      "responses": [
+        "Do widzenia!",
+        "Na razie!",
+        "Trzymaj się!",
+        "Żegnam, do zobaczenia!"
+      ]
+    },
+    {
+      "tag": "podziękowanie",
+      "patterns": [
+        "Dziękuję",
+        "Dzięki",
+        "Bardzo dziękuję",
+        "Wdzięczny jestem",
+        "Dzięki wielkie"
+      ],
+      "responses": [
+        "Nie ma za co!",
+        "Cieszę się, że mogłem pomóc!",
+        "Proszę bardzo!"
+      ]
+    },
+    {
+      "tag": "lokalizacja_sali",
+      "patterns": [
+        "Gdzie jest sala 101?",
+        "Podaj lokalizację sali 202",
+        "Jak dojdę do sali 303?",
+        "Gdzie umiejscowiona jest sala 405?",
+        "Lokalizacja sali 500?",
+        "Gdzie znajdę salę 210?",
+        "W jakim budynku jest sala 310?",
+        "Gdzie umiejscowiona jest sala 415?"
+      ],
+      "responses": [
+        "Sala {number} znajduje się w budynku B, na {floor} piętrze.",
+        "Sala {number} mieści się w budynku B, na {floor} piętrze.",
+        "Informacje: sala {number}, budynek B, piętro {floor}."
+      ]
+    },
+    {
+      "tag": "plan_zajec_kierunkowy",
+      "patterns": [
+        "Jaki jest plan zajęć dla informatyki?",
+        "Plan zajęć na kierunku matematyka?",
+        "Co jest zaplanowane na dziś dla fizyki?",
+        "Przedstaw plan zajęć dla kierunku chemia",
+        "Jak wygląda plan zajęć dla kierunku biologia?"
+      ],
+      "responses": [
+        "Plan zajęć dla kierunku {kierunek}: {plan}",
+        "Oto plan zajęć dla kierunku {kierunek}: {plan}"
+      ]
+    },
+    {
+      "tag": "plan_zajec_sala",
+      "patterns": [
+        "Jaki jest plan zajęć w sali 101?",
+        "Co odbywa się w sali 202?",
+        "Plan zajęć dla sali 303?",
+        "Przedstaw harmonogram sali 405"
+      ],
+      "responses": [
+        "Plan zajęć dla sali {number}: {harmonogram}.",
+        "W sali {number} odbywają się następujące zajęcia: {harmonogram}."
+      ]
+    },
+    {
+      "tag": "informacja_o_wydarzeniach",
+      "patterns": [
+        "Jakie wydarzenia są zaplanowane?",
+        "Co nowego na uczelni?",
+        "Jakie są nadchodzące wydarzenia?",
+        "Czy są jakieś wydarzenia studenckie?"
+      ],
+      "responses": [
+        "Nadchodzące wydarzenia: {wydarzenia}.",
+        "Sprawdź najnowsze wydarzenia: {wydarzenia}."
+      ]
+    },
+    {
+      "tag": "kontakt_administracji",
+      "patterns": [
+        "Jak skontaktować się z administracją?",
+        "Daj mi kontakt do dziekanatu.",
+        "Jaki jest numer telefonu do sekretariatu?",
+        "Gdzie znaleźć kontakt do administracji?"
+      ],
+      "responses": [
+        "Kontakt do administracji: Telefon: 123-456-789, Email: administracja@uczelnia.pl.",
+        "Możesz skontaktować się z administracją pod numerem 123-456-789 lub mailowo: administracja@uczelnia.pl."
+      ]
+    },
+    {
+      "tag": "nie_znaleziono",
+      "patterns": [
+        "asdfghjkl",
+        "qwertyuiop",
+        "losowe słowa",
+        "nie wiem co powiedzieć"
+      ],
+      "responses": [
+        "Przykro mi, nie rozumiem pytania.",
+        "Spróbuj sformułować to inaczej.",
+        "Nie jestem pewien, o co pytasz. Proszę spróbuj jeszcze raz."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "wydarzenia": [
+    {
+      "tytuł": "Spotkanie integracyjne",
+      "data": "2025-03-15",
+      "opis": "Spotkanie integracyjne dla studentów pierwszego roku. Miejsce: Aula Główna."
+    },
+    {
+      "tytuł": "Konferencja naukowa",
+      "data": "2025-04-10",
+      "opis": "Konferencja dotycząca nowoczesnych technologii w edukacji."
+    },
+    {
+      "tytuł": "Warsztaty programistyczne",
+      "data": "2025-03-20",
+      "opis": "Warsztaty dla studentów informatyki dotyczące tworzenia aplikacji webowych."
+    }
+  ]
+}
